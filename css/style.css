@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(134, 41, 255);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+footer{
+    background-color: rgb(134, 41, 255);
+    padding: 20px 20px;
+}
+
+
+#about{
+    background-color: rgb(157, 115, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+#articles{
+    background-color: rgb(187, 168, 255);
+    padding: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+}
