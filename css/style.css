@@ -17,7 +17,7 @@ header {
 
 footer {
     background-color: rgb(146, 83, 62);
-    padding: 10px 20px;
+    padding: 20px 30px;
 }
 
 #about {
@@ -35,7 +35,7 @@ p {
     text-align: justify;
     font-size: 1.2rem;
     line-height: 2.4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 h2 {
