@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1em;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+header {
+    background-color: rgb(56, 116, 89);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer {
+    background-color: rgb(146, 83, 62);
+    padding: 20px 30px;
+}
+
+#about {
+    background-color: rgb(247, 234, 224);
+    padding: 20px;
+    text-align: center;
+}
+
+#articles {
+    background-color: rgb(249, 210, 186);
+    padding: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+ol {
+    padding-left: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+a{
+    color: black;
+}
+
+section{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav a:visited{
+    color:darkblue;
+}
+nav a:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+nav a:focus{
+    color:green;
+    transform: scale(1.2);
+}
+nav a:active{
+    color:red;
+}
+nav a{
+    color:aqua;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+#articles li:nth-child(odd){
+    background-color: rgb(231, 248, 248);
+}
+
+h2::after{
+    content: "<3 lida";
+    font-size: 12px;
+    margin-left: 10px;
+    color: rgb(255, 0, 170);
+}
+
+.bi-yin-yang{
+    color: rgb(255, 167, 193);
+}
+
+#articles a::after{
+    content: "\F82E";
+    font-family: "bootstrap-icons";
+    color: red;
+    text-decoration: none;
+}
+
+/*------------Верстка формы---------------*/
+.form-reg{
+    width: 180px;
+    margin: 20px auto;
+    background-color: rgb(255, 0, 157);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+input{
+    background-color: rgb(255, 202, 235);
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(231, 81, 199);
+}
+
+input[type=submit]{
+    background-color: rgb(81, 255, 0);
+    color: rgb(252, 252, 252);
+    padding: 10px;
+}
+input[type=submit]:hover{
+    background-color: black;
+    cursor: pointer;
+}
+input[type=checkbox],
+input[type=radio]{
+    accent-color: rgb(81, 255, 0);
+}
+
+select{
+    width: 150px;
+}
