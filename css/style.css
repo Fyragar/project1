@@ -3,9 +3,19 @@
     padding: 0;
 }
 
-html {
+h1{
+    font-size: 2em;
+    font-family: "Lobster", sans-serif;
+}
+
+h2,h3{
+    font-size: 1.5em;
+    font-family: "Lobster", sans-serif;
+}
+
+body {
     font-size: 1em;
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
 }
 
 header {
@@ -38,6 +48,14 @@ p {
     margin-bottom: 1rem;
 }
 
+#about p:first-line {
+    letter-spacing: 5px; 
+} 
+
+p:lang(en){
+    font-size: 30px;
+}
+
 h2 {
     text-align: center;
     font-size: 1.5rem;
@@ -61,4 +79,147 @@ a{
 section{
     padding-left: 20px;
     padding-right: 20px;
+}
+nav a:visited{
+    color:rgb(255, 251, 0);
+}
+nav a:hover{
+    color:rgb(255, 0, 98);
+    text-decoration: underline;
+}
+nav a:focus{
+    color:rgb(16, 255, 203);
+    transform: scale(1.2);
+}
+nav a:active{
+    color:rgb(255, 255, 255);
+}
+nav a{
+    color:rgb(255, 185, 185);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+ol a:visited{
+    color:rgb(83, 1, 1);
+}
+ol a:hover{
+    color:rgb(255, 113, 113);
+    text-decoration: underline;
+}
+ol a:focus{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+ol a:active{
+    color:rgb(255, 255, 255);
+}
+ol a{
+    color:rgb(255, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+kk a:visited{
+    color:rgb(83, 1, 1);
+}
+kk a:hover{
+    color:rgb(255, 113, 113);
+    text-decoration: underline;
+}
+kk a:focus{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+kk a:active{
+    color:rgb(255, 255, 255);
+}
+kk a{
+    color:rgb(255, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+#articles li:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*h2::after{
+    content: "<3 lida";
+    font-size: 12px;
+    margin-left: 10px;
+    color: rgb(255, 0, 170);
+}*/
+
+.bi-yin-yang{
+    color: rgb(255, 167, 193);
+}
+
+#articles a::after{
+    content: "\F82E";
+    font-family: "bootstrap-icons";
+    color: red;
+    text-decoration: none;
+    
+}
+
+li:nth-child(4)::after{
+    background-color: rgb(255, 0, 0);
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 5px;
+    content: "Важно!";
+    font-size: 25px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+/*------------Верстка формы---------------*/
+.form-reg{
+    width: 180px;
+    margin: 20px auto;
+    background-color: rgb(255, 0, 157);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+input{
+    background-color: rgb(255, 202, 235);
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(231, 81, 199);
+}
+
+input[type=submit]{
+    background-color: rgb(81, 255, 0);
+    color: rgb(252, 252, 252);
+    padding: 10px;
+}
+input[type=submit]:hover{
+    background-color: black;
+    cursor: pointer;
+}
+input[type=checkbox],
+input[type=radio]{
+    accent-color: rgb(81, 255, 0);
+}
+
+select{
+    width: 150px;
+}
+
+.blue{
+    color:blue;
+}
+
+.border
+{
+    border: blue solid 1px;
+}
+
+figure + h3{
+    padding-top: 50px;
 }
