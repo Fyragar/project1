@@ -220,6 +220,22 @@ select{
     border: blue solid 1px;
 }
 
+table{
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: rgb(86, 56, 255);
+}
+td:first-child{
+    background-color: rgb(73, 255, 56);
+}
+tr:last-child{
+    background-color: rgb(255, 13, 195);
+}
+tr:first-child{
+    background-color: rgb(255, 255, 255);
+}
 figure + h3{
     padding-top: 50px;
 }
